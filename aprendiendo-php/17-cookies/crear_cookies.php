@@ -14,6 +14,6 @@ setcookie("micookie", "Valor de mi galleta");
 //Cookie con expiración
 setcookie("unyear", "Valor de mi cookie de 365 dias", time()+(60*60*24*365));
 
-?>
+header('location: ver_cookies.php');
 
-<a href="ver_cookies.php">Ver las galletas</a>
+?>
